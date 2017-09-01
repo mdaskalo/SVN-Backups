@@ -8,9 +8,6 @@ A Python script for creating full or incremental SVN dumps and uploading the res
 The last two arguments specify the repository location and the local directory where the backups are created.  For incremental backups, do not delete the local backups as this script scans the existing backups to determine the last saved revision.
 
 Additionally, this script uploads to Dropbox using their secure website.  It is not necessary to have the Dropbox client installed on your computer.  As a result, backups are only pushed to Dropbox.  Deleted or corrupted local copies will not be synced with the copies on Dropbox.
-    
-    
-Other Open Source Libraries
----------------------------
-  - [MOEA Framework](http://www.moeaframework.org) - A Free and Open Source Java Framework for Multiobjective Optimization
-  - [DGantt](http://sourceforge.net/projects/dgantt/) - A simple yet powerful Gantt chart library for Java 1.6 and later
+
+Additionally, this script will add FTPS (FTP over explicit SSL/TLS) handling. Not done yet.
+
